@@ -56,7 +56,7 @@ const HomePage: React.FC = () => {
 
           <div className="w-full lg:w-1/2 flex justify-center">
             <div className="hero-image-wrapper shadow-xl rounded-2xl overflow-hidden">
-              <img src="/src/assets/hero.jpg" alt="Mario Sanchez" className="hero-image object-cover w-80 h-80 lg:w-96 lg:h-96" />
+              <img src="/assets/hero.jpg" alt="Mario Sanchez" className="hero-image object-cover w-80 h-80 lg:w-96 lg:h-96" />
             </div>
           </div>
         </div>
@@ -91,7 +91,7 @@ const HomePage: React.FC = () => {
           {/* Highlights tipo CV */}
           <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
             <div className="p-6 border rounded-xl">
-              <h3 className="text-2xl font-bold">+3</h3>
+              <h3 className="text-2xl font-bold">+6</h3>
               <p className="text-gray-600">Años de experiencia</p>
             </div>
 
@@ -231,7 +231,7 @@ const HomePage: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Proyecto 1 */}
             <div className="border rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition">
-              <img src="/src/assets/revesa.png" alt="ERP Revesa Energy" className="h-48 w-full object-cover" />
+              <img src="/assets/revesa.png" alt="ERP Revesa Energy" className="h-48 w-full object-cover" />
               <div className="p-5">
                 <h3 className="font-semibold text-lg">ERP Revesa Energy</h3>
                 <p className="text-sm text-gray-500 mt-1">Cliente: Revesa Energy</p>
@@ -243,7 +243,7 @@ const HomePage: React.FC = () => {
 
             {/* Proyecto 2 */}
             <div className="border rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition">
-              <img src="/src/assets/pmp.png" alt="Mantenimiento perforación" className="h-48 w-full object-cover" />
+              <img src="/assets/pmp.png" alt="Mantenimiento perforación" className="h-48 w-full object-cover" />
               <div className="p-5">
                 <h3 className="font-semibold text-lg">Mantenimiento de equipos de perforación</h3>
                 <p className="text-sm text-gray-500 mt-1">Industria petrolera</p>
@@ -255,7 +255,7 @@ const HomePage: React.FC = () => {
 
             {/* Proyecto 3 */}
             <div className="border rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition">
-              <img src="/src/assets/nutri.png" alt="Sistema Nutricional" className="h-48 w-full object-cover" />
+              <img src="/assets/nutri.png" alt="Sistema Nutricional" className="h-48 w-full object-cover" />
               <div className="p-5">
                 <h3 className="font-semibold text-lg">Sistema Nutricional</h3>
                 <p className="text-sm text-gray-500 mt-1">Sector salud</p>
@@ -267,7 +267,7 @@ const HomePage: React.FC = () => {
 
             {/* Proyecto 4 */}
             <div className="border rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition">
-              <img src="/src/assets/hospital.png" alt="Gestión Hospitalaria" className="h-48 w-full object-cover" />
+              <img src="/assets/hospital.png" alt="Gestión Hospitalaria" className="h-48 w-full object-cover" />
               <div className="p-5">
                 <h3 className="font-semibold text-lg">Sistema Gestión Hospitalaria</h3>
                 <p className="text-sm text-gray-500 mt-1">Clínica privada</p>
@@ -277,7 +277,7 @@ const HomePage: React.FC = () => {
 
             {/* Proyecto 5 */}
             <div className="border rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition">
-              <img src="src/assets/obras.png" alt="Administración de Obras" className="h-48 w-full object-cover" />
+              <img src="/assets/obras.png" alt="Administración de Obras" className="h-48 w-full object-cover" />
               <div className="p-5">
                 <h3 className="font-semibold text-lg">Sistema Administración de Obras</h3>
                 <p className="text-sm text-gray-500 mt-1">Construcción</p>
@@ -288,7 +288,7 @@ const HomePage: React.FC = () => {
             </div>
             {/* Proyecto 6 */}
             <div className="border rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition">
-              <img src="/src/assets/tag.png" alt="Sistema de Mantenimiento de Barcos" className="h-48 w-full object-cover" />
+              <img src="/assets/tag.png" alt="Sistema de Mantenimiento de Barcos" className="h-48 w-full object-cover" />
               <div className="p-5">
                 <h3 className="font-semibold text-lg">Sistema de Mantenimiento de Barcos</h3>
 
